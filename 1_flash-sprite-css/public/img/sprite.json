@@ -1,0 +1,216 @@
+{
+	"frames": [
+		{
+			"filename": "Symbol 10000",
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}, {
+			"filename": "Symbol 10001",
+			"frame": {
+				"x": 137,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}, {
+			"filename": "Symbol 10002",
+			"frame": {
+				"x": 274,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}, {
+			"filename": "Symbol 10003",
+			"frame": {
+				"x": 0,
+				"y": 180,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}, {
+			"filename": "Symbol 10004",
+			"frame": {
+				"x": 137,
+				"y": 180,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}, {
+			"filename": "Symbol 10005",
+			"frame": {
+				"x": 274,
+				"y": 180,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}, {
+			"filename": "Symbol 10006",
+			"frame": {
+				"x": 0,
+				"y": 360,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}, {
+			"filename": "Symbol 10007",
+			"frame": {
+				"x": 137,
+				"y": 360,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}, {
+			"filename": "Symbol 10008",
+			"frame": {
+				"x": 274,
+				"y": 360,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}, {
+			"filename": "Symbol 10009",
+			"frame": {
+				"x": 0,
+				"y": 540,
+				"w": 137,
+				"h": 180
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 137,
+				"h": 180
+			},
+			"sourceSize": {
+				"w": 137,
+				"h": 180
+			}
+		}
+	],
+	"meta": {
+		"app": "Adobe Flash CS6",
+		"version": "12.0.0.481",
+		"image": "AnimPreloader.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 414,
+			"h": 720
+		},
+		"scale": "1"
+	}
+}

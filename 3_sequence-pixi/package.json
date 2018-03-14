@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV='dev' concurrently --kill-others \"node server.js\"",
+    "build": "NODE_ENV='production' node build.js | uglifyjs -c > public/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "budo": "^11.1.7",
+    "concurrently": "^3.5.0",
+    "envify": "^4.1.0",
+    "glslify-bare": "^1.0.0",
+    "preloadjs": "^1.0.1",
+    "uglify-js": "^3.1.8"
+  },
+  "dependencies": {
+    "@merci-michel/mm-movieclip": "^3.0.0",
+    "@merci-michel/mm-render": "^1.0.1",
+    "pixi.js": "^4.7.0",
+    "preload-js": "^0.6.3"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "glslify-bare"
+    ],
+    "paths": [
+      "./src"
+    ]
+  },
+  "standard": {
+    "globals": []
+  }
+}
