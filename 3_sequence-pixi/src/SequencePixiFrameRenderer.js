@@ -1,8 +1,6 @@
-import 'pixi.js';
+class SequencePixiFrameRenderer {
 
-class SpritePixiFrameRenderer {
-
-	constructor(framesProvider, container = new PIXI.DisplayObjectContainer()) {
+	constructor(framesProvider, container = new PIXI.Container()) {
 		this.render = this.render.bind(this);
 
 		this.framesProvider = framesProvider;
@@ -13,7 +11,7 @@ class SpritePixiFrameRenderer {
 
 		this.sprites = [];
 		for (let i = 0; i < framesProvider.totalFrames; i++) {
-			const sprite = new PIXI.Sprite(new PIXI.Texture.fromImage(framesProvider.getFrameImg(i).src));
+			const sprite = new PIXI.Sprite(new PIXI.Sprite(new PIXI.Texture.fromImage(framesProvider.getFrameImg(i).src)));
 			sprite.scale.x = sprite.scale.y = framesProvider.scale;
 			sprite.visible = false;
 			this.sprites.push(sprite);
@@ -40,4 +38,4 @@ class SpritePixiFrameRenderer {
 	}
 
 }
-export default SpritePixiFrameRenderer;
+export default SequencePixiFrameRenderer;

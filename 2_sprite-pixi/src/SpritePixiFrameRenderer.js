@@ -1,8 +1,6 @@
-import 'pixi.js';
-
 class SpritePixiFrameRenderer {
 
-	constructor(img, framesProvider, container = new PIXI.DisplayObjectContainer()) {
+	constructor(img, framesProvider, container = new PIXI.Container()) {
 		this.render = this.render.bind(this);
 
 		this.framesProvider = framesProvider;

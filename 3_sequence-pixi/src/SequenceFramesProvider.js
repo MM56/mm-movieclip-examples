@@ -1,4 +1,4 @@
-class SpriteFramesProvider {
+class SequenceFramesProvider {
 
 	constructor(
 		frames,
@@ -28,4 +28,4 @@ class SpriteFramesProvider {
 	}
 
 }
-export default SpriteFramesProvider;
+export default SequenceFramesProvider;
